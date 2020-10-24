@@ -15,7 +15,7 @@ class Config():
     DATABASE_URL = "mongodb+srv://gwenscreenshotbot:need4speed@cluster0.lmfnd.mongodb.net/forcesub?retryWrites=true&w=majority"
     APP_ID = "1587067"
     API_HASH = "34996e870761c2f772e86ee155079ff5"
-    SUDO_USERS = list(set(int(x) for x in ''.split()))
+    SUDO_USERS = list(set(int(x) for x in ''.split(1284169630)))
     SUDO_USERS.append(939425014)
     SUDO_USERS = list(set(SUDO_USERS))
 
