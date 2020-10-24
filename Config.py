@@ -12,7 +12,7 @@ class Config():
     SUDO_USERS = list(set(SUDO_USERS))
   else:
     BOT_TOKEN = "1245924787:AAHlKkMtBl-PjImREMeB9QMgIsFLA_Jf7D4"
-    DATABASE_URL = ""
+    DATABASE_URL = "mongodb://Modzilla:Modzilla@modzilla-shard-00-00.qkiww.mongodb.net:27017,modzilla-shard-00-01.qkiww.mongodb.net:27017,modzilla-shard-00-02.qkiww.mongodb.net:27017/Modzilla?ssl=true&replicaSet=atlas-osdw33-shard-0&authSource=admin&retryWrites=true&w=majority"
     APP_ID = "1587067"
     API_HASH = "34996e870761c2f772e86ee155079ff5"
     SUDO_USERS = list(set(int(x) for x in ''.split()))
