@@ -11,10 +11,10 @@ class Config():
     SUDO_USERS.append(939425014)
     SUDO_USERS = list(set(SUDO_USERS))
   else:
-    BOT_TOKEN = "1245924787:AAHlKkMtBl-PjImREMeB9QMgIsFLA_Jf7D4"
-    DATABASE_URL = "mongodb+srv://gwenstephanie:need4speed@cluster0.4tpcj.mongodb.net/forcesub?retryWrites=true&w=majority"
-    APP_ID = "1587067"
-    API_HASH = "34996e870761c2f772e86ee155079ff5"
+    BOT_TOKEN = ""
+    DATABASE_URL = ""
+    APP_ID = ""
+    API_HASH = ""
     SUDO_USERS = list(set(int(x) for x in ''.split()))
     SUDO_USERS.append(939425014)
     SUDO_USERS = list(set(SUDO_USERS))
