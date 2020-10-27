@@ -39,20 +39,20 @@ def help_answer(client, callback_query):
 def map(pos):
     if(pos==1):
         button = [
-            [InlineKeyboardButton(text = '-->', callback_data = "help+2")]
+            [InlineKeyboardButton(text = '☆》', callback_data = "help+2")]
         ]
     elif(pos==len(tr.HELP_MSG)-1):
         url = "https://t.me/joinchat/AAAAAE-44AkxSyqIMj1tdQ"
         button = [
-            [InlineKeyboardButton(text = 'Support Group', url="https://t.me/LeechZone")],
-            [InlineKeyboardButton(text = 'Premium Android Applications', url=url)],
-            [InlineKeyboardButton(text = '<--', callback_data = f"help+{pos-1}")]
+            [InlineKeyboardButton(text = '📍 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 📍', url="https://t.me/LeechZone")],
+            [InlineKeyboardButton(text = '📳 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 𝗔𝗡𝗗𝗥𝗢𝗜𝗗 𝗔𝗣𝗣𝗦 📳', url=url)],
+            [InlineKeyboardButton(text = '《☆', callback_data = f"help+{pos-1}")]
         ]
     else:
         button = [
             [
-                InlineKeyboardButton(text = '<--', callback_data = f"help+{pos-1}"),
-                InlineKeyboardButton(text = '-->', callback_data = f"help+{pos+1}")
+                InlineKeyboardButton(text = '《☆', callback_data = f"help+{pos-1}"),
+                InlineKeyboardButton(text = '☆》', callback_data = f"help+{pos+1}")
             ],
         ]
     return button
