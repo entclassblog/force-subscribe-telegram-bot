@@ -30,7 +30,7 @@ class Messages():
         
         "**Commmands**\n**/ForceSubscribe - To get the current settings.\n/ForceSubscribe no/off/disable - To turn of ForceSubscribe.\n/ForceSubscribe {channel username} - To turn on and setup the channel.\n/ForceSubscribe clear - To unmute all members who muted by me.\n\nNote: /FSub is an alias of /ForceSubscribe**",
         
-        "**⭕️ My Name :  𝗙𝗼𝗿𝗰𝗲 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗕𝗼𝘁**\n\n**⭕️ Creater : @Iggie**\n\n**⭕️ Language :** ``Python3``\n\n**⭕️ Library :** [Pyrogram Asyncio 0.16.1](https://docs.pyrogram.org/)\n\n**⭕️ Source Code : 👉** [Click Here](https://t.me/NoSourceCode)", disable_web_page_preview=True
+        "**⭕️ My Name :  𝗙𝗼𝗿𝗰𝗲 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗕𝗼𝘁**\n\n**⭕️ Creater : @Iggie**\n\n**⭕️ Language :** ``Python3``\n\n**⭕️ Library :** [Pyrogram Asyncio 0.16.1](https://docs.pyrogram.org/)\n\n**⭕️ Source Code : 👉** [Click Here](https://t.me/NoSourceCode)"
       ]
 
       START_MSG = "**Hey [{}](tg://user?id={})**\n**I can force members to join a specific channel before writing messages in the group.\nLearn more at /help**"
