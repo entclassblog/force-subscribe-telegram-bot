@@ -33,4 +33,4 @@ class Messages():
         "**⭕️ My Name :  𝗙𝗢𝗥𝗖𝗘 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 𝗕𝗢𝗧**\n\n**⭕️ Creater : @Iggie**\n\n**⭕️ Language :** `Python3`\n\n**⭕️ Library :** **Pyrogram Asyncio 0.16.1**\n\n**⭕️ Source Code : 👉** [Click Here](https://t.me/NoSourceCode)"
       ]
 
-      START_MSG = "**Hey [{}](tg://user?id={})**\n**I can force members to join a specific channel before writing messages in the group.\nLearn more at /help**"
+      START_MSG = "**Hello [{}](tg://user?id={}),**\n**I Can Force Members To Join A Specific Channel\nBefore Writing Messages In The Group.\nLearn More By Clicking /help**"
