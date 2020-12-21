@@ -53,7 +53,7 @@ def _check_member(client, message):
               "{}, You Are **Not Subscribed** To My [CHANNEL 📢](https://t.me/{}) Yet.\n\nPlease [JOIN](https://t.me/{}) & **Press The Button Below** to unmute yourself.".format(message.from_user.mention, channel, channel),
               disable_web_page_preview=True,
               reply_markup=InlineKeyboardMarkup(
-                  [[InlineKeyboardButton("📢 Join Channel📢", url="https://t.me/{}")]]
+                  [[InlineKeyboardButton("📢 Join Channel 📢", url="https://t.me/{}")]],
                   [[InlineKeyboardButton("🗣 UNMUTE ME 🗣", callback_data="onUnMuteRequest")]]
               )
           )
