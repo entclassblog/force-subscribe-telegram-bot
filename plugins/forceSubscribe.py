@@ -50,17 +50,17 @@ def _check_member(client, message):
       except UserNotParticipant:
         try:
           sent_message = message.reply_text(
-              "{}, you are **Not Subscribed** to my [Channel](https://t.me/{}) yet. Please Join @{} and Press the **UnMute Me** button below to unmute yourself.".format(message.from_user.mention, channel, channel),
+              "{}, you are **Not Subscribed** to my [CHANNEL](https://t.me/{}) yet. Please Join @{} and Press the **Unmute Me** button below to unmute yourself.".format(message.from_user.mention, channel, channel),
               disable_web_page_preview=True,
               reply_markup=InlineKeyboardMarkup(
                   [
                       [
                           #InlineKeyboardButton("UnMute Me", callback_data="onUnMuteRequest")
-                          InlineKeyboardButton('Join Channel', url=f"https://t.me/{channel}")
+                          InlineKeyboardButton('📢 Join Channel 📢', url=f"https://t.me/{channel}")
                       ],
                       [
                           #InlineKeyboardButton('Join Channel', url=f"https://t.me/{channel}")
-                          InlineKeyboardButton("UnMute Me", callback_data="onUnMuteRequest")
+                          InlineKeyboardButton("🗣 Unmute Me 🗣", callback_data="onUnMuteRequest")
                       ]
                   ]
               )
