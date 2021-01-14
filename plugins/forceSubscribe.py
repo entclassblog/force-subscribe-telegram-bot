@@ -58,11 +58,9 @@ def _check_member(client, message):
               reply_markup=InlineKeyboardMarkup(
                   [
                       [
-                          #InlineKeyboardButton("UnMute Me", callback_data="onUnMuteRequest")
                           InlineKeyboardButton('📢 Join Channel 📢', url=f"https://t.me/{channel}")
                       ],
                       [
-                          #InlineKeyboardButton('Join Channel', url=f"https://t.me/{channel}")
                           InlineKeyboardButton("🗣 Unmute Me 🗣", callback_data="onUnMuteRequest")
                       ]
                   ]
@@ -102,8 +100,9 @@ def config(client, message):
         try:
           client.get_chat_member(input_str, "me")
           sql.add_channel(chat_id, input_str)
-          chat_id =  -1001215335384
-          client.send_message(chat_id, f"#FORCE_SUB: Force Subscribe Enabled for @{input_str}")
+          chat_id = -1001215335384
+          the_peru_user = message.from_user.mention
+          client.send_message(chat_id, f"#FORCE_SUB: Force Subscribe Enabled for @{input_str} by {the_peru_user}")
           message.reply_text(f"✅ **Force Subscribe is Enabled**\n__Force Subscribe is enabled, all the group members have to subscribe this [channel](https://t.me/{input_str}) in order to send messages in this group.__", disable_web_page_preview=True)
         except UserNotParticipant:
           message.reply_text(f"❗ **Not an Admin in the Channel**\n__I am not an admin in the [channel](https://t.me/{input_str}). Add me as a admin in order to enable ForceSubscribe.__", disable_web_page_preview=True)
