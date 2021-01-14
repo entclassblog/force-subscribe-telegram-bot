@@ -1,4 +1,7 @@
+# (c) @AbirHasan2005
+
 import time
+import datetime
 import logging
 from Config import Config
 from pyrogram import Client, filters
@@ -99,6 +102,8 @@ def config(client, message):
         try:
           client.get_chat_member(input_str, "me")
           sql.add_channel(chat_id, input_str)
+          chat_id =  # Put Chat ID
+          client.send_message(chat_id, f"#FORCE_SUB: Force Subscribe Enabled for {channel}")
           message.reply_text(f"✅ **Force Subscribe is Enabled**\n__Force Subscribe is enabled, all the group members have to subscribe this [channel](https://t.me/{input_str}) in order to send messages in this group.__", disable_web_page_preview=True)
         except UserNotParticipant:
           message.reply_text(f"❗ **Not an Admin in the Channel**\n__I am not an admin in the [channel](https://t.me/{input_str}). Add me as a admin in order to enable ForceSubscribe.__", disable_web_page_preview=True)
