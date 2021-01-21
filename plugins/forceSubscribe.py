@@ -61,7 +61,7 @@ def _check_member(client, message):
                           InlineKeyboardButton('📢 Join Channel 📢', url=f"https://t.me/{channel}")
                       ],
                       [
-                          InlineKeyboardButton("🗣 Unmute Me 🗣", callback_data="onUnMuteRequest")
+                          InlineKeyboardButton("🔊 Unmute Me 🔊", callback_data="onUnMuteRequest")
                       ]
                   ]
               )
