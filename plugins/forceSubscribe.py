@@ -28,7 +28,7 @@ def _onUnMuteRequest(client, cb):
             if cb.message.reply_to_message.from_user.id == user_id:
               cb.message.delete()
           except UserNotParticipant:
-            client.answer_callback_query(cb.id, text="❗ Join The Mentioned 'Channel' And Press The 'Unmute Me' Button Again.", show_alert=True)
+            client.answer_callback_query(cb.id, text="Please Join Entclass Channel First, Then Click The **UNMUTE ME** Button Again ⚠.", show_alert=True)
       else:
         client.answer_callback_query(cb.id, text="❗ You are muted by admins for other reasons.", show_alert=True)
     else:
@@ -53,7 +53,7 @@ def _check_member(client, message):
       except UserNotParticipant:
         try:
           sent_message = message.reply_text(
-              "{}, you are **Not Subscribed** to my [CHANNEL](https://t.me/{}) yet. Please Join @{} and Press the **Unmute Me** button below to unmute yourself.".format(message.from_user.mention, channel, channel),
+              "{}, You Are **Not Subscribed** To My [CHANNEL](https://t.me/{}) Yet.\n\nPlease Join @{} & Press The **UNMUTE ME** Button Below To Unmute Yourself 👇👇.".format(message.from_user.mention, channel, channel),
               disable_web_page_preview=True,
               reply_markup=InlineKeyboardMarkup(
                   [
