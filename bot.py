@@ -1,5 +1,5 @@
 import logging
-from Pyrogram import Client
+from pyrogram import Client
 from Config import Config
 
 logging.basicConfig(level=logging.INFO)
