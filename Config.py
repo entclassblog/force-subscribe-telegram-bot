@@ -30,7 +30,7 @@ class Messages():
         
         "**Commmands**\n**/ForceSubscribe - To get the current settings.\n/ForceSubscribe no/off/disable - To turn of ForceSubscribe.\n/ForceSubscribe {channel username} - To turn on and setup the channel.\n/ForceSubscribe clear - To unmute all members who muted by me.\n\nNote: /FSub is an alias of /ForceSubscribe**",
         
-        "**⭕️ My Name :  𝗙𝗢𝗥𝗖𝗘 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 𝗕𝗢𝗧**\n\n**⭕️ Creater : 𝐄𝐧𝐭𝐜𝐥𝐚𝐬𝐬 𝐓𝐞𝐜𝐡 𝐒𝐨𝐥𝐮𝐭𝐢𝐨𝐧**\n\n**⭕️ Language :** `Python3`\n\n**⭕️ Library :** **Pyrogram Asyncio 0.16.1**\n\n**⭕️ Source Code : 👉** [Click Here](https://t.me/entclasschannel)"
+        "**⭕️ My Name :  𝗙𝗢𝗥𝗖𝗘 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 𝗕𝗢𝗧**\n\n**⭕️ Creater : 𝐄𝐧𝐭𝐜𝐥𝐚𝐬𝐬 𝐓𝐞𝐜𝐡 𝐒𝐨𝐥𝐮𝐭𝐢𝐨𝐧**\n\n**⭕️ Language :** `Python3`\n\n**⭕️ Library :** **Pyrogram Asyncio 0.16.1**\n\n**⭕️ Source Code : 👉** [HIDDEN](https://t.me/--...)"
       ]
 
       START_MSG = "**Hello [{}](tg://user?id={}) 👋,**\n**I Can Force Members To Join A Specific Channel\nBefore Writing Messages In The Group. Learn More By Clicking /help**"
