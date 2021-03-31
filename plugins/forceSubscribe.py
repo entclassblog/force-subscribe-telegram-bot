@@ -53,7 +53,7 @@ def _check_member(client, message):
       except UserNotParticipant:
         try:
           sent_message = message.reply_text(
-              "{}, you are **Not Subscribed** to my [CHANNEL](https://t.me/{}) yet. Please Join @{} and Press the **Unmute Me** button below to unmute yourself.".format(message.from_user.mention, channel, channel),
+              "{}, you are **Not Subscribed** to [Entclass Channel](https://t.me/{}) yet. Please Join @{} and Press the **Unmute Me** button below to unmute yourself.".format(message.from_user.mention, channel, channel),
               disable_web_page_preview=True,
               reply_markup=InlineKeyboardMarkup(
                   [
